@@ -5,7 +5,7 @@ What is the question you hope to answer? What data are you planning to use to an
 
 I am planning to build a model that will examine historic NCAA basketball data in order to predict March Madness performance. 
 
-There is an extremely high volume of data available at http://www.sports-reference.com/cbb/ -- including over 100 years of in-depth team, player, and coaching stats, as well as regional and national tournament data for all years when tournaments were held.
+There is a high volume of data available at http://www.sports-reference.com/cbb/ -- including over 100 years of in-depth team, player, and coaching stats, as well as regional and national tournament data for all years when tournaments were held.
 
 I haven’t decided exactly which fields to use, but I would definitely like to involve data at the team and individual player level. At a very high level, this model will digest some number of fields in order to assign a ‘score’ to a team in a given contest. As the teams enter the tournament, the scores will be used to determine who the likely winner will be in a game between any two given teams.
 
