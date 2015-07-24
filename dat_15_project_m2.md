@@ -7,6 +7,7 @@ Please note that I just changed my topic, and so this is a very preliminary firs
 
 Cycling is an increasingly popular sport and mode of transit in America; and particularly in dense cities that don’t require car ownership, it can be the fastest and most cost effective means of travel to work and many other destinations. In part because of the recent increase in cycling popularity, there has been a staggering increase in the percentage of all injury causing collisions that bicycles are involved in, while the total injury volume has remained comparatively flat (http://j.mp/1If0zJ2):
 
+```
 Year, Total Injuries, Bicycle %
 2000, 4182, 9
 2001, 3917, 10
@@ -20,7 +21,7 @@ Year, Total Injuries, Bicycle %
 2009, 2877, 18
 2010, 3081, 19
 2011, 3111, 21
-
+```
 
 San Francisco is beginning to take steps towards making the city a more bike friendly place, but so far, many of these efforts have been controversially focused on cracking down on cyclists that violate traffic laws (http://j.mp/1If0Ifw).
 
@@ -31,25 +32,18 @@ In this project, I am analyzing reports of cycling injuries throughout the city,
 
 Sample JSON location data:
 
+```
  {     
- 
 "lat":37.7724134,
-
 "severity":"u'INJURY",
-
 "street1":"11th St",
-
 "street2":"Market",
-
 "image_id":1,
-
 "year":"2012",
-
 "date":"u'20120419",
-
 "lng":-122.4147158
-
 },
+```
 
 
 I’ve also already analyzed general SFPD incident data and plotted location, and I plan to extend and apply that project to this specific topic.
