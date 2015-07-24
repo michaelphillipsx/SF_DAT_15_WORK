@@ -32,14 +32,23 @@ In this project, I am analyzing reports of cycling injuries throughout the city,
 Sample JSON location data:
 
  {     
+ 
 "lat":37.7724134,
+
 "severity":"u'INJURY",
+
 "street1":"11th St",
+
 "street2":"Market",
+
 "image_id":1,
+
 "year":"2012",
+
 "date":"u'20120419",
+
 "lng":-122.4147158
+
 },
 
 
