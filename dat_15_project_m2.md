@@ -32,15 +32,15 @@ In this project, I am analyzing reports of cycling injuries throughout the city,
 Sample JSON location data:
 
  {     
-   "lat":37.7724134,
-        "severity":"u'INJURY",
-        "street1":"11th St",
-        "street2":"Market",
-        "image_id":1,
-        "year":"2012",
-        "date":"u'20120419",
-        "lng":-122.4147158
-     },
+"lat":37.7724134,
+"severity":"u'INJURY",
+"street1":"11th St",
+"street2":"Market",
+"image_id":1,
+"year":"2012",
+"date":"u'20120419",
+"lng":-122.4147158
+},
 
 
 I’ve also already analyzed general SFPD incident data and plotted location, and I plan to extend and apply that project to this specific topic.
