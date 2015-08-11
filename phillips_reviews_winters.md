@@ -1,3 +1,6 @@
+https://github.com/wints/SF_DAT_15_WORK/tree/master/winters_project_first_draft
+
+
 Mike, I love this idea. It's particularly interesting in that it
 attempts to solve a problem with Hype Machine's current product. The
 collaborative filtering method that HM uses to surface new music seems
