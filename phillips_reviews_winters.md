@@ -4,7 +4,7 @@ collaborative filtering method that HM uses to surface new music seems
 to work well under the assumption that its listeners share mutual
 interests (or in the very limited goal of surfacing only the songs that
 the ENTIRE userbase likes the most), but will be more problematic as the
-volume and diversity of its users grow. Of course, it will still function
+volume and diversity of its users grows. Of course, it will still function
 to surface "hyped" content, but to succeed as a personal song recommender, it would
 need to adopt some type of content based filtering (or else become more targeted
 with its collaborative recommendations). This makes your project
