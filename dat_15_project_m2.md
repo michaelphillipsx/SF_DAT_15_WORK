@@ -2,8 +2,6 @@ SF_DAT_15 Course Project
 
 San Francisco Cycling Safety -- Michael Phillips
 
-Please note that I just changed my topic, and so this is a very preliminary first draft. I have a ton of data though, and will have some code ready in the next couple of days.
-
 
 Cycling is an increasingly popular sport and mode of transit in America; and particularly in dense cities that don’t require car ownership, it can be the fastest and most cost effective means of travel to work and many other destinations. In part because of the recent increase in cycling popularity, there has been a staggering increase in the percentage of all injury causing collisions that bicycles are involved in, while the total injury volume has remained comparatively flat (http://j.mp/1If0zJ2):
 
