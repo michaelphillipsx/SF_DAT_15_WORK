@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<Context xpath="/root/object" outPort="0">
+	<Context xpath="accidents" outPort="0">
+		<Mapping cloverField="lat" xpath="lat"/>
+		<Mapping cloverField="severity" xpath="severity"/>
+		<Mapping cloverField="street1" xpath="street1"/>
+		<Mapping cloverField="street2" xpath="street2"/>
+		<Mapping cloverField="image_id" xpath="image_x005fid"/>
+		<Mapping cloverField="year" xpath="year"/>
+		<Mapping cloverField="date" xpath="date"/>
+		<Mapping cloverField="lng" xpath="lng"/>
+	</Context>
+</Context>
