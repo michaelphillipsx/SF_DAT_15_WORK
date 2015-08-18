@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?><Graph author="michaelphillips" created="Fri Aug 14 12:59:30 PDT 2015" guiVersion="3.4.4.P" id="1439857359083" licenseType="Commercial" modified="Mon Aug 17 18:28:41 PDT 2015" modifiedBy="michaelphillips" name="Project" revision="1.36" showComponentDetails="true">
+<Global>
+<Metadata id="Metadata4" previewAttachmentCharset="ISO-8859-1">
+<Record fieldDelimiter="|" name="CopyOf_recordName1" previewAttachmentCharset="ISO-8859-1" recordDelimiter="\n" type="delimited">
+<Field name="lat" type="string"/>
+<Field name="severity" type="string"/>
+<Field name="street1" type="string"/>
+<Field name="street2" type="string"/>
+<Field name="image_id" type="string"/>
+<Field name="year" type="date"/>
+<Field name="date" type="string"/>
+<Field name="lng" type="string"/>
+<Field name="coord" type="string"/>
+<Field name="intersection" type="string"/>
+</Record>
+</Metadata>
+<Metadata id="Metadata0" previewAttachment="${DATA_SOURCE_DIR}/kimono-apr.csv" previewAttachmentCharset="ISO-8859-1">
+<Record fieldDelimiter="," label="kimono-apr.csv" name="kimono_apr_csv" previewAttachment="${DATA_SOURCE_DIR}/kimono-apr.csv" previewAttachmentCharset="ISO-8859-1" quoteChar="&quot;" quotedStrings="true" recordDelimiter="\r\n" skipSourceRows="1" type="delimited">
+<Field label="day.text" name="day_text" type="string"/>
+<Field label="day.href" name="day_href" type="string"/>
+<Field label="desc.text" name="desc_text" type="string"/>
+<Field label="desc.src" name="desc_src" type="string"/>
+<Field label="desc.alt" name="desc_alt" type="string"/>
+<Field label="precip" name="precip" type="string"/>
+<Field label="high" name="high" type="string"/>
+<Field eofAsDelimiter="false" label="low" name="low" type="string"/>
+<Field auto_filling="source_name" name="month" type="string"/>
+</Record>
+</Metadata>
+<Metadata id="Metadata1" previewAttachment="${DATA_SOURCE_DIR}/kimono-jan.csv" previewAttachmentCharset="ISO-8859-1">
+<Record fieldDelimiter="," label="kimono-jan.csv" name="kimono_jan_csv" previewAttachment="${DATA_SOURCE_DIR}/kimono-jan.csv" previewAttachmentCharset="ISO-8859-1" quoteChar="&quot;" quotedStrings="true" recordDelimiter="\r" skipSourceRows="1" type="delimited">
+<Field label="day.text" name="day_text" type="string"/>
+<Field label="day.href" name="day_href" type="string"/>
+<Field label="desc.text" name="desc_text" type="string"/>
+<Field label="desc_src" name="desc_src" type="string"/>
+<Field label="desc.alt" name="desc_alt" type="string"/>
+<Field label="precip" name="precip" type="string"/>
+<Field label="high" name="high" type="string"/>
+<Field eofAsDelimiter="false" label="low" name="low" type="string"/>
+</Record>
+</Metadata>
+<Metadata id="Metadata2" previewAttachmentCharset="ISO-8859-1">
+<Record fieldDelimiter="|" name="recordName" previewAttachmentCharset="ISO-8859-1" recordDelimiter="\n" type="delimited">
+<Field eofAsDelimiter="false" label="day.text" name="day" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" label="desc.alt" name="desc" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" label="precip" name="precip" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" label="high" name="high" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" label="low" name="low" nullable="true" shift="0" size="0" type="string"/>
+<Field auto_filling="source_name" eofAsDelimiter="false" name="month" nullable="true" shift="0" size="0" type="string"/>
+<Field name="date" type="string"/>
+</Record>
+</Metadata>
+<Metadata id="Metadata5" previewAttachmentCharset="ISO-8859-1">
+<Record fieldDelimiter="," name="recordName" previewAttachmentCharset="ISO-8859-1" recordDelimiter="\n" recordSize="-1" type="delimited">
+<Field eofAsDelimiter="false" name="lat" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="severity" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="street1" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="street2" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="image_id" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" format="yyyy-MM-dd" name="year" nullable="true" shift="0" size="0" type="date"/>
+<Field eofAsDelimiter="false" format="yyyy-MM-dd" name="date" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="lng" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="coord" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="intersection" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" label="day" name="day" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" label="desc" name="desc" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" label="precip" name="precip" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" label="high" name="high" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" label="low" name="low" nullable="true" shift="0" size="0" type="string"/>
+<Field eofAsDelimiter="false" name="month" nullable="true" shift="0" size="0" type="string"/>
+</Record>
+</Metadata>
+<Metadata id="Metadata3" previewAttachmentCharset="ISO-8859-1">
+<Record fieldDelimiter="|" name="recordName1" previewAttachmentCharset="ISO-8859-1" recordDelimiter="\n" type="delimited">
+<Field name="lat" type="string"/>
+<Field name="severity" type="string"/>
+<Field name="street1" type="string"/>
+<Field name="street2" type="string"/>
+<Field name="image_id" type="string"/>
+<Field name="year" type="string"/>
+<Field name="date" type="string"/>
+<Field name="lng" type="string"/>
+</Record>
+</Metadata>
+<Property fileURL="workspace.prm" id="GraphParameter0"/>
+<Dictionary/>
+</Global>
+<Phase number="0">
+<Node enabled="enabled" fileURL="${DATA_SOURCE_DIR}/kimono-*.csv" guiName="CSV Reader" guiX="9" guiY="199" id="CSV_READER" type="DATA_READER"/>
+<Node enabled="enabled" fileURL="${DATA_TMP_DIR}/SFDAT15_Project.csv" guiName="CSV Writer" guiX="934" guiY="287" id="CSV_WRITER" outputFieldNames="true" quoteCharacter="&quot;" quotedStrings="true" type="DATA_WRITER"/>
+<Node dedupKey="image_id(a)" enabled="enabled" guiName="Dedup" guiX="917" guiY="96" id="DEDUP" type="DEDUP"/>
+<Node enabled="enabled" guiName="ExtMergeJoin" guiX="566" guiY="96" id="EXT_MERGE_JOIN" joinKey="$date(a)#$date(a);" joinType="leftOuter" type="EXT_MERGE_JOIN">
+<attr name="transform"><![CDATA[//#CTL2
+
+// Transforms input record into output record.
+function integer transform() {
+	$out.0.lat = $in.0.lat;
+	$out.0.severity = $in.0.severity;
+	$out.0.street1 = $in.0.street1;
+	$out.0.street2 = $in.0.street2;
+	$out.0.image_id = $in.0.image_id;
+	$out.0.year = $in.0.year;
+	$out.0.date = $in.0.date;
+	$out.0.lng = $in.0.lng;
+	$out.0.coord = $in.0.coord;
+	$out.0.intersection = $in.0.intersection;
+	$out.0.day = $in.1.day;
+	$out.0.desc = $in.1.desc;
+	$out.0.precip = $in.1.precip;
+	$out.0.high = $in.1.high;
+	$out.0.low = $in.1.low;
+	$out.0.month = $in.1.month;
+
+	return ALL;
+}
+
+// Called during component initialization.
+// function boolean init() {}
+
+// Called during each graph run before the transform is executed. May be used to allocate and initialize resources
+// required by the transform. All resources allocated within this method should be released
+// by the postExecute() method.
+// function void preExecute() {}
+
+// Called only if transform() throws an exception.
+// function integer transformOnError(string errorMessage, string stackTrace) {}
+
+// Called during each graph run after the entire transform was executed. Should be used to free any resources
+// allocated within the preExecute() method.
+// function void postExecute() {}
+
+// Called to return a user-defined error message when an error occurs.
+// function string getMessage() {}
+]]></attr>
+</Node>
+<Node enabled="enabled" guiName="FastSort" guiX="375" guiY="205" id="FAST_SORT" sortKey="date(a)" type="FAST_SORT"/>
+<Node enabled="enabled" guiName="FastSort" guiX="375" guiY="8" id="FAST_SORT1" sortKey="date(a)" type="FAST_SORT"/>
+<Node enabled="enabled" guiName="FastSort" guiX="736" guiY="96" id="FAST_SORT2" sortKey="image_id(a)" type="FAST_SORT"/>
+<Node enabled="enabled" fileURL="${DATA_SOURCE_DIR}/bike.json" guiName="JSONReader" guiX="9" guiY="8" id="JSONREADER" type="JSON_READER">
+<attr name="mapping"><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<Context xpath="/root/object" outPort="0">
+	<Context xpath="accidents" outPort="0">
+		<Mapping cloverField="lat" xpath="lat"/>
+		<Mapping cloverField="severity" xpath="severity"/>
+		<Mapping cloverField="street1" xpath="street1"/>
+		<Mapping cloverField="street2" xpath="street2"/>
+		<Mapping cloverField="image_id" xpath="image_x005fid"/>
+		<Mapping cloverField="year" xpath="year"/>
+		<Mapping cloverField="date" xpath="date"/>
+		<Mapping cloverField="lng" xpath="lng"/>
+	</Context>
+</Context>]]></attr>
+</Node>
+<Node enabled="enabled" guiName="Reformat" guiX="189" guiY="199" id="REFORMAT" type="REFORMAT">
+<attr name="transform"><![CDATA[function integer transform() {
+
+ 	if (num2str(length($in.0.day_text)) == "1") $out.0.day = "0" + $in.0.day_text;
+	else $out.0.day = $in.0.day_text;	
+	
+	$out.0.desc = $in.0.desc_alt;
+	$out.0.precip = $in.0.precip;
+	$out.0.high = removeNonPrintable($in.0.high);
+	$out.0.low = removeNonPrintable($in.0.low);
+	$out.0.month = split(split($in.0.month,"kimono-")[1],".csv")[0];
+	$out.0.date = "2012" + $out.0.month + $out.0.day;
+
+	return ALL;
+}
+]]></attr>
+</Node>
+<Node enabled="enabled" guiName="Reformat" guiX="189" guiY="8" id="REFORMAT1" type="REFORMAT">
+<attr name="transform"><![CDATA[
+function integer transform() {
+	if ($in.0.lat == null)
+	return SKIP;
+	
+	$out.0.lat = $in.0.lat;
+	$out.0.severity = split($in.0.severity,"u\'")[1];
+	$out.0.street1 = $in.0.street1;
+	$out.0.street2 = $in.0.street2;
+	$out.0.image_id = $in.0.image_id;
+	$out.0.year = str2date($in.0.year,"yyyy");
+	
+	$out.0.date = split($in.0.date,"u\'")[1];
+	// u'20120117
+	
+	$out.0.lng = $in.0.lng;
+	
+	$out.0.coord = $in.0.lat + ";" + $in.0.lng;
+	$out.0.intersection = $in.0.street1 + " and " + $in.0.street2;
+
+	return ALL;
+}]]></attr>
+</Node>
+<Node enabled="disabled" guiName="Trash" guiX="934" guiY="383" id="TRASH" type="TRASH"/>
+<Edge debugMode="true" fromNode="CSV_READER:0" guiBendpoints="" guiRouter="Manhattan" id="Edge0" inPort="Port 0 (in)" metadata="Metadata0" outPort="Port 0 (output)" toNode="REFORMAT:0"/>
+<Edge debugMode="true" fromNode="DEDUP:0" guiBendpoints="" guiRouter="Manhattan" id="Edge9" inPort="Port 0 (in)" metadata="Metadata5" outPort="Port 0 (unique)" toNode="CSV_WRITER:0"/>
+<Edge debugMode="true" fromNode="EXT_MERGE_JOIN:0" guiBendpoints="" guiRouter="Manhattan" id="Edge7" inPort="Port 0 (in)" metadata="Metadata5" outPort="Port 0 (out)" toNode="FAST_SORT2:0"/>
+<Edge debugMode="true" fromNode="FAST_SORT:0" guiBendpoints="" guiRouter="Manhattan" id="Edge6" inPort="Port 1 (slave)" metadata="Metadata2" outPort="Port 0 (out)" toNode="EXT_MERGE_JOIN:1"/>
+<Edge debugMode="true" fromNode="FAST_SORT1:0" guiBendpoints="" guiRouter="Manhattan" id="Edge5" inPort="Port 0 (driver)" metadata="Metadata4" outPort="Port 0 (out)" toNode="EXT_MERGE_JOIN:0"/>
+<Edge debugMode="true" fromNode="FAST_SORT2:0" guiBendpoints="" guiRouter="Manhattan" id="Edge8" inPort="Port 0 (in)" metadata="Metadata5" outPort="Port 0 (out)" toNode="DEDUP:0"/>
+<Edge debugMode="true" fromNode="JSONREADER:0" guiBendpoints="" guiRouter="Manhattan" id="Edge3" inPort="Port 0 (in)" metadata="Metadata3" outPort="Port 0 (out)" toNode="REFORMAT1:0"/>
+<Edge debugMode="true" fromNode="REFORMAT:0" guiBendpoints="" guiRouter="Manhattan" id="Edge2" inPort="Port 0 (in)" metadata="Metadata2" outPort="Port 0 (out)" toNode="FAST_SORT:0"/>
+<Edge fromNode="REFORMAT1:0" guiBendpoints="" guiRouter="Manhattan" id="Edge4" inPort="Port 0 (in)" metadata="Metadata4" outPort="Port 0 (out)" toNode="FAST_SORT1:0"/>
+</Phase>
+</Graph>
