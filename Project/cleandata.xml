@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><Graph author="michaelphillips" created="Fri Aug 14 12:59:30 PDT 2015" guiVersion="3.4.4.P" id="1439857359083" licenseType="Commercial" modified="Mon Aug 17 18:28:41 PDT 2015" modifiedBy="michaelphillips" name="Project" revision="1.36" showComponentDetails="true">
+<?xml version="1.0" encoding="UTF-8"?><Graph author="michaelphillips" created="Fri Aug 14 12:59:30 PDT 2015" guiVersion="3.4.4.P" id="1439857359083" licenseType="Commercial" modified="Mon Aug 17 19:13:45 PDT 2015" modifiedBy="michaelphillips" name="Project" revision="1.41" showComponentDetails="true">
 <Global>
 <Metadata id="Metadata4" previewAttachmentCharset="ISO-8859-1">
 <Record fieldDelimiter="|" name="CopyOf_recordName1" previewAttachmentCharset="ISO-8859-1" recordDelimiter="\n" type="delimited">
@@ -158,8 +158,10 @@ function integer transform() {
  	if (num2str(length($in.0.day_text)) == "1") $out.0.day = "0" + $in.0.day_text;
 	else $out.0.day = $in.0.day_text;	
 	
+	if ($in.0.precip == "T") $out.0.precip = "0.01";
+	else $out.0.precip = $in.0.precip;
+	
 	$out.0.desc = $in.0.desc_alt;
-	$out.0.precip = $in.0.precip;
 	$out.0.high = removeNonPrintable($in.0.high);
 	$out.0.low = removeNonPrintable($in.0.low);
 	$out.0.month = split(split($in.0.month,"kimono-")[1],".csv")[0];
