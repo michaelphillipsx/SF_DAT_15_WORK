@@ -140,7 +140,7 @@
 50171,20060821,2006,1245,Monday,Not Intersection,PDO,Clear,Dry,Daylight,Bicycle
 50212,20060820,2006,1050,Sunday,Not Intersection,Injury (Complaint of Pain),Clear,Dry,Daylight,Bicycle
 50225,20060829,2006,1705,Tuesday,Not Intersection,Injury (Other Visible),Cloudy,Dry,Daylight,(null)
-50258,20060828,2006,730,Monday,Not Intersection,Injury (Other Visible),Cloudy,Slippery (Muddy, Oily, etc.),Daylight,Not Stated or Unknown (Hit and Run)
+50258,20060828,2006,730,Monday,Not Intersection,Injury (Other Visible),Cloudy,Slippery (Muddy Oily etc.),Daylight,Not Stated or Unknown (Hit and Run)
 50262,20060828,2006,1639,Monday,Intersection,Injury (Complaint of Pain),Clear,Dry,Daylight,Passenger Car Station Wagon or Jeep
 50273,20060728,2006,1140,Friday,Intersection,Injury (Severe),Clear,Dry,Daylight,Pickup or Panel Truck
 50281,20060717,2006,1550,Monday,Not Intersection,Injury (Other Visible),Clear,Dry,Daylight,Passenger Car Station Wagon or Jeep
@@ -1303,7 +1303,7 @@
 83614,20120822,2012,1620,Wednesday,Not Intersection,Injury (Other Visible),Clear,Dry,Daylight,Bicycle
 83621,20120812,2012,840,Sunday,Not Intersection,Injury (Other Visible),Clear,Dry,Daylight,Passenger Car Station Wagon or Jeep
 83624,20120822,2012,1626,Wednesday,Intersection,Injury (Other Visible),Clear,Dry,Daylight,Bicycle
-83628,20120813,2012,1810,Monday,Not Intersection,Injury (Complaint of Pain),Clear,Slippery (Muddy, Oily, etc.),Daylight,Not Stated or Unknown (Hit and Run)
+83628,20120813,2012,1810,Monday,Not Intersection,Injury (Complaint of Pain),Clear,Slippery (Muddy Oily etc.),Daylight,Not Stated or Unknown (Hit and Run)
 83629,20120814,2012,2159,Tuesday,Not Intersection,Injury (Complaint of Pain),Clear,Dry,Dark - Street Lights,Not Stated or Unknown (Hit and Run)
 83630,20120809,2012,1712,Thursday,Not Intersection,Injury (Other Visible),Clear,Dry,Daylight,Bicycle
 83632,20120809,2012,2300,Thursday,Not Intersection,Injury (Other Visible),Clear,Dry,Dark - Street Lights,Bicycle
@@ -2840,7 +2840,7 @@
 74174,20101013,2010,1047,Wednesday,Not Intersection,Injury (Other Visible),Clear,Dry,Daylight,(null)
 74177,20101003,2010,1848,Sunday,Intersection,Injury (Complaint of Pain),Clear,Dry,Dusk - Dawn,(null)
 74180,20101003,2010,1142,Sunday,Intersection,Injury (Complaint of Pain),Cloudy,Dry,Daylight,(null)
-74181,20101001,2010,107,Friday,Not Intersection,Injury (Other Visible),Other,Slippery (Muddy, Oily, etc.),Dark - Street Lights,(null)
+74181,20101001,2010,107,Friday,Not Intersection,Injury (Other Visible),Other,Slippery (Muddy Oily etc.),Dark - Street Lights,(null)
 74182,20101001,2010,852,Friday,Not Intersection,Injury (Complaint of Pain),Clear,Dry,Daylight,(null)
 74195,20101012,2010,828,Tuesday,Not Intersection,Injury (Complaint of Pain),Clear,Dry,Daylight,(null)
 74203,20101015,2010,2130,Friday,Not Intersection,Injury (Complaint of Pain),Clear,Dry,Dark - Street Lights,(null)
@@ -3992,7 +3992,7 @@
 43422,20051108,2005,750,Tuesday,Not Intersection,Injury (Severe),Cloudy,Wet,Daylight,Not Stated or Unknown (Hit and Run)
 43434,20051116,2005,715,Wednesday,Intersection,Injury (Complaint of Pain),Clear,Dry,Daylight,(null)
 43440,20051119,2005,1736,Saturday,Intersection,Injury (Other Visible),Clear,Dry,Dark - Street Lights,Bicycle
-43465,20051109,2005,820,Wednesday,Not Intersection,Injury (Other Visible),Clear,Slippery (Muddy, Oily, etc.),Daylight,Not Stated or Unknown (Hit and Run)
+43465,20051109,2005,820,Wednesday,Not Intersection,Injury (Other Visible),Clear,Slippery (Muddy Oily etc.),Daylight,Not Stated or Unknown (Hit and Run)
 43467,20051101,2005,1714,Tuesday,Not Intersection,Injury (Complaint of Pain),Clear,Dry,Dusk - Dawn,Pedestrian (includes motorized wheelchair)
 43469,20051108,2005,2335,Tuesday,Not Intersection,Injury (Complaint of Pain),Clear,Dry,Dark - No Street Lights,Not Stated or Unknown (Hit and Run)
 43473,20051108,2005,1930,Tuesday,Not Intersection,Injury (Other Visible),Cloudy,Dry,Dark - Street Lights,(null)
