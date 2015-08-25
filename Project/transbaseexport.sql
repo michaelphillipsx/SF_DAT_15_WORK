@@ -1,1 +1,1 @@
-select switrs_col_pkey, collision_date, accident_year, collision_time, day_of_week, intersection, collision_severity, weather_1, road_surface, lighting, chp_vehtype_at_fault from tbl_switrs_col where bicycle_accident = 'Yes'
+select switrs_col_pkey, collision_date, accident_year, collision_time, day_of_week, intersection, primary_rd, secondary_rd, collision_severity, weather_1, road_surface, lighting, chp_vehtype_at_fault from tbl_switrs_col where bicycle_accident = 'Yes'
