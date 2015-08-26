@@ -59,9 +59,9 @@ accidents.groupby('desc').desc.count().plot(kind='bar')
 
 
 def weather_groups(n):
-    if ( n == "Clear"): 
+    if ( n == "Clear" or n == "Partly Cloudy" or n == "Scattered Clouds"): 
         return "Sunny"
-    elif (n == "Fog" or n == "Mostly Cloudy" or n == "Overcast" or n == "Overcast" or n == "Partly Cloudy" or n == "Scattered Clouds"):
+    elif (n == "Fog" or n == "Mostly Cloudy" or n == "Overcast"):
         return "Cloudy"
     elif (n == "Rain" or n == "Thunderstorm"):
         return "Rainy"
@@ -70,6 +70,6 @@ accidents['weather_groups'] = accidents.desc.apply(weather_groups)
 accidents.groupby('weather_groups').desc.count().plot(kind='bar')
 
 accidents.groupby('weather_groups').desc.describe()
-# 239/307 = 77.850162866 % Cloudy
+# 64/307 = 20.846905537 % Cloudy
 # 38/307 = 12.377850163 % Rainy
-# 30/307 = 9.7719869707 % Sunny
+# 205/307 = 66.7752443 % Sunny
